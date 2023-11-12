@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+</head>
+<body>
+<a-scene background="color:pink">
+    <a-entity position="0 0 0">
+        <a-camera></a-camera>
+    </a-entity>
+<a-assets>
+<a-asset-item src="Terrific Kup.glb" id="table" ></a-asset-item>
+<a-assest-item src="Fantastic Blad.glb" id="cup" ></a-assest-item>
+</a-assets>
+
+
+<a-entity gltf-model="#table" position="0 0 -8" scale="0.07 0.07 0.07"></a-entity>
+<a-entity gltf-model="#cup" position="1.5    1 -5" scale="0.02 0.02 0.02" ></a-entity>
+
+</a-entity>
+</a-scene>
+</body>
+</html>
